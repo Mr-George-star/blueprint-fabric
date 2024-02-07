@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.george.blueprint.core.mixin.invoker",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "FluidInvoker"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

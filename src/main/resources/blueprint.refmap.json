@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "net/george/blueprint/core/mixin/client/ClientLoginNetworkHandlerMixin": {
+      "Lnet/minecraft/network/ClientConnection;setState(Lnet/minecraft/network/NetworkState;)V": "Lnet/minecraft/class_2535;method_10750(Lnet/minecraft/class_2539;)V",
+      "onSuccess": "Lnet/minecraft/class_635;method_12588(Lnet/minecraft/class_2901;)V"
+    },
+    "net/george/blueprint/core/mixin/extension/ServerAdvancementLoaderMixin": {
+      "Lnet/minecraft/server/ServerAdvancementLoader;apply(Ljava/util/Map;Lnet/minecraft/resource/ResourceManager;Lnet/minecraft/util/profiler/Profiler;)V": "apply(Ljava/util/Map;Lnet/minecraft/resource/ResourceManager;Lnet/minecraft/util/profiler/Profiler;)"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "net/george/blueprint/core/mixin/client/ClientLoginNetworkHandlerMixin": {
+        "Lnet/minecraft/network/ClientConnection;setState(Lnet/minecraft/network/NetworkState;)V": "Lnet/minecraft/class_2535;method_10750(Lnet/minecraft/class_2539;)V",
+        "onSuccess": "Lnet/minecraft/class_635;method_12588(Lnet/minecraft/class_2901;)V"
+      },
+      "net/george/blueprint/core/mixin/extension/ServerAdvancementLoaderMixin": {
+        "Lnet/minecraft/server/ServerAdvancementLoader;apply(Ljava/util/Map;Lnet/minecraft/resource/ResourceManager;Lnet/minecraft/util/profiler/Profiler;)V": "apply(Ljava/util/Map;Lnet/minecraft/resource/ResourceManager;Lnet/minecraft/util/profiler/Profiler;)"
+      }
+    }
+  }
+}

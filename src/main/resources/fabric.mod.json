@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "id": "blueprint",
+  "version": "${version}",
+
+  "name": "Blueprint (Fabric)",
+  "description": "This mod moved classes from Blueprint to this mod and replaced many useful classes from Forge.",
+  "authors": [
+    "Mr.George"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "",
+    "issues": "",
+    "email": ""
+  },
+
+  "license": "MIT License",
+  "icon": "assets/blueprint/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.george.blueprint.core.Blueprint"
+    ],
+    "client": [
+      "net.george.blueprint.core.BlueprintClient"
+    ],
+    "fabric-datagen": [
+      "net.george.blueprint.core.BlueprintDataGeneration"
+    ],
+    "preLaunch": [
+      "net.george.blueprint.core.BlueprintPreLaunch"
+    ]
+  },
+  "mixins": [
+    "blueprint.mixins.json",
+    "blueprint.extension.mixins.json",
+    "blueprint.client.mixins.json",
+    "blueprint.invoker.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  },
+  "accessWidener": "blueprint.accesswidener",
+  "custom": {
+    "modmenu": {
+      "badges": [
+        "library"
+      ]
+    },
+    "loom:injected_interfaces": {
+      "net/minecraft/class_1863": ["net/george/blueprint/core/util/extension/RecipeManagerExtension"],
+      "net/minecraft/class_1865": ["net/george/blueprint/core/util/extension/RecipeSerializerExtension"],
+      "net/minecraft/class_2989": ["net/george/blueprint/core/util/extension/ServerAdvancementLoaderExtension"],
+      "net/minecraft/class_437": ["net/george/blueprint/core/util/extension/ScreenExtension"],
+      "net/minecraft/class_2960": ["net/george/blueprint/core/util/extension/IdentifierExtension"]
+    }
+  }
+}

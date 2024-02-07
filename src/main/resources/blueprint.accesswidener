@@ -1,0 +1,73 @@
+accessWidener v2 named
+
+transitive-accessible field net/minecraft/util/registry/DefaultedRegistry defaultEntry Lnet/minecraft/util/registry/RegistryEntry;
+transitive-accessible class net/minecraft/block/entity/BlockEntityType$BlockEntityFactory
+
+transitive-accessible method net/minecraft/item/Item isIn (Lnet/minecraft/item/ItemGroup;)Z
+
+transitive-extendable class	net/minecraft/recipe/Ingredient
+transitive-accessible method net/minecraft/recipe/Ingredient <init>	(Ljava/util/stream/Stream;)V
+transitive-accessible method net/minecraft/recipe/Ingredient ofEntries (Ljava/util/stream/Stream;)Lnet/minecraft/recipe/Ingredient;
+transitive-accessible method net/minecraft/recipe/Ingredient entryFromJson (Lcom/google/gson/JsonObject;)Lnet/minecraft/recipe/Ingredient$Entry;
+transitive-accessible field	net/minecraft/recipe/Ingredient	entries	[Lnet/minecraft/recipe/Ingredient$Entry;
+transitive-accessible class	net/minecraft/recipe/Ingredient$Entry
+transitive-accessible class	net/minecraft/recipe/Ingredient$StackEntry
+transitive-accessible field	net/minecraft/recipe/Ingredient$StackEntry stack Lnet/minecraft/item/ItemStack;
+transitive-accessible method net/minecraft/recipe/Ingredient$StackEntry	<init> (Lnet/minecraft/item/ItemStack;)V
+transitive-accessible class	net/minecraft/recipe/Ingredient$TagEntry
+transitive-accessible field	net/minecraft/recipe/Ingredient$TagEntry tag Lnet/minecraft/tag/TagKey;
+transitive-accessible class net/minecraft/advancement/Advancement$Builder
+transitive-accessible method net/minecraft/advancement/Advancement$Builder <init> (Lnet/minecraft/util/Identifier;Lnet/minecraft/advancement/AdvancementDisplay;Lnet/minecraft/advancement/AdvancementRewards;Ljava/util/Map;[[Ljava/lang/String;)V
+
+transitive-accessible class net/minecraft/util/WorldSavePath
+transitive-accessible method net/minecraft/util/WorldSavePath <init> (Ljava/lang/String;)V
+
+transitive-accessible method net/minecraft/recipe/BrewingRecipeRegistry registerPotionRecipe (Lnet/minecraft/potion/Potion;Lnet/minecraft/item/Item;Lnet/minecraft/potion/Potion;)V
+transitive-accessible field net/minecraft/entity/ai/brain/task/GiveGiftsToHeroTask GIFTS Ljava/util/Map;
+transitive-accessible field net/minecraft/block/Block translationKey Ljava/lang/String;
+transitive-accessible field net/minecraft/item/Item translationKey Ljava/lang/String;
+transitive-accessible field net/minecraft/structure/pool/StructurePool elementCounts Ljava/util/List;
+transitive-accessible field net/minecraft/structure/pool/StructurePool elements Ljava/util/List;
+transitive-accessible field net/minecraft/tag/TagManagerLoader registryManager Lnet/minecraft/util/registry/DynamicRegistryManager;
+transitive-accessible field net/minecraft/server/DataPackContents registryTagManager Lnet/minecraft/tag/TagManagerLoader;
+transitive-accessible field net/minecraft/block/DispenserBlock BEHAVIORS Ljava/util/Map;
+
+transitive-accessible method net/minecraft/util/SignType register (Lnet/minecraft/util/SignType;)Lnet/minecraft/util/SignType;
+transitive-accessible method net/minecraft/client/render/TexturedRenderLayers createSignTextureId (Lnet/minecraft/util/SignType;)Lnet/minecraft/client/util/SpriteIdentifier;
+
+transitive-accessible class net/minecraft/world/gen/surfacebuilder/MaterialRules$MaterialRuleContext
+transitive-accessible class net/minecraft/world/gen/surfacebuilder/MaterialRules$BooleanSupplier
+transitive-accessible class net/minecraft/world/gen/surfacebuilder/MaterialRules$FullLazyAbstractPredicate
+
+transitive-accessible field net/minecraft/world/gen/chunk/ChunkGenerator populationSource Lnet/minecraft/world/biome/source/BiomeSource;
+transitive-accessible field net/minecraft/world/gen/chunk/ChunkGenerator biomeSource Lnet/minecraft/world/biome/source/BiomeSource;
+transitive-mutable field net/minecraft/world/gen/chunk/ChunkGenerator populationSource Lnet/minecraft/world/biome/source/BiomeSource;
+transitive-mutable field net/minecraft/world/gen/chunk/ChunkGenerator biomeSource Lnet/minecraft/world/biome/source/BiomeSource;
+transitive-accessible field net/minecraft/world/gen/chunk/NoiseChunkGenerator surfaceBuilder Lnet/minecraft/world/gen/surfacebuilder/SurfaceBuilder;
+
+transitive-accessible field net/minecraft/client/MinecraftClient pausedTickDelta F
+
+transitive-accessible field net/minecraft/entity/vehicle/BoatEntity fallVelocity D
+transitive-accessible field net/minecraft/entity/vehicle/BoatEntity location Lnet/minecraft/entity/vehicle/BoatEntity$Location;
+
+transitive-accessible field net/minecraft/client/render/item/BuiltinModelItemRenderer blockEntityRenderDispatcher Lnet/minecraft/client/render/block/entity/BlockEntityRenderDispatcher;
+transitive-accessible method net/minecraft/client/render/RenderLayer of (Ljava/lang/String;Lnet/minecraft/client/render/VertexFormat;Lnet/minecraft/client/render/VertexFormat$DrawMode;IZZLnet/minecraft/client/render/RenderLayer$MultiPhaseParameters;)Lnet/minecraft/client/render/RenderLayer$MultiPhase;
+transitive-accessible method net/minecraft/client/render/entity/LivingEntityRenderer addFeature (Lnet/minecraft/client/render/entity/feature/FeatureRenderer;)Z
+transitive-accessible field net/minecraft/client/network/AbstractClientPlayerEntity cachedScoreboardEntry Lnet/minecraft/client/network/PlayerListEntry;
+transitive-accessible field net/minecraft/client/network/PlayerListEntry textures Ljava/util/Map;
+
+transitive-accessible field net/minecraft/client/model/ModelPart children Ljava/util/Map;
+transitive-accessible field net/minecraft/client/model/ModelPart cuboids Ljava/util/List;
+transitive-extendable class net/minecraft/client/model/ModelPart
+transitive-accessible method net/minecraft/client/model/TexturedModelData <init> (Lnet/minecraft/client/model/ModelData;Lnet/minecraft/client/model/TextureDimensions;)V
+
+transitive-accessible method net/minecraft/client/render/Camera moveBy (DDD)V
+
+transitive-accessible field net/minecraft/client/resource/ClientBuiltinResourcePackProvider DEFAULT_PACK_METADATA Lnet/minecraft/resource/metadata/PackResourceMetadata;
+transitive-accessible field net/minecraft/resource/ResourcePackManager providers Ljava/util/Set;
+transitive-accessible field net/minecraft/client/render/model/json/JsonUnbakedModel$GuiLight name Ljava/lang/String;
+transitive-accessible class net/minecraft/client/render/model/json/Transformation$Deserializer
+transitive-accessible method net/minecraft/client/render/model/json/ModelElement getRotatedMatrix (Lnet/minecraft/util/math/Direction;)[F
+transitive-accessible field net/minecraft/client/render/model/json/Transformation$Deserializer DEFAULT_ROTATION Lnet/minecraft/util/math/Vec3f;
+transitive-accessible field net/minecraft/client/render/model/json/Transformation$Deserializer DEFAULT_TRANSLATION Lnet/minecraft/util/math/Vec3f;
+transitive-accessible field net/minecraft/client/render/model/json/Transformation$Deserializer DEFAULT_SCALE Lnet/minecraft/util/math/Vec3f;

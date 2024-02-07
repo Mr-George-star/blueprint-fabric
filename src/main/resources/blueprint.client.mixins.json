@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.george.blueprint.core.mixin.client",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "LevelPropertiesMixin"
+  ],
+  "client": [
+    "BlockColorsMixin",
+    "ClientLoginNetworkHandlerMixin",
+    "ClientPlayerNetworkHandlerMixin",
+    "ClientWorldMixin",
+    "EntityRenderDispatcherMixin",
+    "GameRendererMixin",
+    "MinecraftClientMixin",
+    "ModelPartMixin",
+    "PlayerEntityRendererMixin",
+    "ScreenMixin",
+    "SkinOptionsScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
